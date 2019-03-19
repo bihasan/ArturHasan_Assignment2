@@ -7201,7 +7201,7 @@ var layoutforscatterplot = {
       text: "Amount of reviews",
       font: {
         family: "Courier New, monospace",
-        size: 13,
+        size: 15,
         color: "#7f7f7f"
       }
     }
@@ -7287,7 +7287,7 @@ var layoutforhistrogram2 = {
     text: "Accomodations",
     font: {
       family: "Courier New, monospace",
-      size: 24
+      size: 16
     },
     xref: "paper",
     y: 0.05,
@@ -7342,7 +7342,7 @@ var layoutforpiechart= {
     text: "Percentage of different Room Type",
     font: {
       family: "Courier New, monospace",
-      size: 24
+      size: 16
     },
     xref: "paper",
     y: 0.05,

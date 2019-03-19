@@ -1,0 +1,37 @@
+#scatterplot {
+        
+    width: 800px;
+    height: 600px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+ 
+
+  #Histogram {
+    
+    width: 800px;
+    height: 600px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  #Histogram2 {
+    
+    width: 800px;
+    height: 600px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
+
+  #piechart {
+    
+    width: 800px;
+    height: 600px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+  }
