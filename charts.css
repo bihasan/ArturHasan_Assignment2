@@ -1,37 +1,59 @@
-#scatterplot {
-        
-    width: 800px;
-    height: 600px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+div {
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
   }
-
- 
-
-  #Histogram {
-    
-    width: 800px;
-    height: 600px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+  
+  h2 {
+     text-align: center;
+     color: darkblue;
   }
-
-  #Histogram2 {
-    
-    width: 800px;
-    height: 600px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
+  
+  h3 {
+     text-align: center;
+     color: darkblue;
   }
-
-  #piechart {
-    
-    width: 800px;
-    height: 600px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;
-  }
+        #scatterplot {
+  
+           width: 600px;
+           height: 500px;
+           border: 25px solid rgb(16, 13, 158);
+           border-radius: 30px 50px 30px;
+           padding: 25px;
+           margin: 25px;
+           float: left;
+  
+        }
+  
+        #Histogram {
+  
+           width: 600px;
+           height: 500px;
+           border: 25px solid rgb(16, 13, 158);
+           border-radius: 30px 50px 30px;
+           padding: 25px;
+           margin: 25px;
+           float: right;
+        }
+  
+        #Histogram2 {
+  
+           width: 600px;
+           height: 500px;
+           border: 25px solid rgb(16, 13, 158);
+           border-radius: 30px 50px 30px;
+           padding: 25px;
+           margin: 25px;
+           float: left;
+        }
+  
+        #piechart {
+  
+           width: 600px;
+           height: 500px;
+           border: 25px solid rgb(16, 13, 158);
+           border-radius: 30px 50px 30px;
+           padding: 25px;
+           margin: 25px;
+           float: right;
+        }
