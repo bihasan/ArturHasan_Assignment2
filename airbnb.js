@@ -7174,8 +7174,8 @@ var scatterplot = [{
 
 var layoutforscatterplot = {
   autosize: false,
-  width: 800,
-  height: 600,
+  width: 600,
+  height: 500,
 
   title: {
     text: "Reviews / Price",
@@ -7231,8 +7231,8 @@ var histogram1 = [{
 
 var layoutforhistrogram = {
   autosize: false,
-  width: 800,
-  height: 600,
+  width: 600,
+  height: 500,
 
   title: {
     text: "Price",
@@ -7280,8 +7280,8 @@ var histogram2 = [{
 
 var layoutforhistrogram2 = {  
   autosize: false,
-  width: 800,
-  height: 600,
+  width: 600,
+  height: 500,
 
   title: {
     text: "Accomodations",
@@ -7335,7 +7335,7 @@ var piechart = [{
 
 var layoutforpiechart= {  
   autosize: false,
-  width: 700,
+  width: 600,
   height: 500,
 
   title: {

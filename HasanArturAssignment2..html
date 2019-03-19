@@ -8,75 +8,78 @@
    <title>HasanArtur Assignment2</title>
 
    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-     <style>
+   <style>
+      #scatterplot {
+
+         width: 600px;
+         height: 500px;
+         border: 25px solid rgb(16, 13, 158);
+         border-radius: 30px 50px 30px;
+         padding: 25px;
+         margin: 25px;
+         float: left;
+      }
 
 
-   #scatterplot {
-        
-        width: 800px;
-        height: 600px;
-        border: 25px solid  rgb(16, 13, 158);
-        border-radius: 30px 50px 30px;
-        padding: 25px;
-        margin: 25px;
-              }
-    
-     
-    
+
       #Histogram {
-        
-        width: 800px;
-        height: 600px;
-        border: 25px solid rgb(16, 13, 158);
-        border-radius: 30px 50px 30px;
-        padding: 25px;
-        margin: 25px;
+
+         width: 600px;
+         height: 500px;
+         border: 25px solid rgb(16, 13, 158);
+         border-radius: 30px 50px 30px;
+         padding: 25px;
+         margin: 25px;
+         float: right;
       }
-    
+
       #Histogram2 {
-        
-        width: 800px;
-        height: 600px;
-        border: 25px solid  rgb(16, 13, 158);
-        border-radius: 30px 50px 30px;
-        padding: 25px;
-        margin: 25px;
+
+         width: 600px;
+         height: 500px;
+         border: 25px solid rgb(16, 13, 158);
+         border-radius: 30px 50px 30px;
+         padding: 25px;
+         margin: 25px;
+         float: left;
       }
-    
+
       #piechart {
-        
-        width: 800px;
-        height: 600px;
-        border: 25px solid  rgb(16, 13, 158);
-        border-radius: 30px 50px 30px;
-        padding: 25px;
-        margin: 25px;
+
+         width: 600px;
+         height: 500px;
+         border: 25px solid rgb(16, 13, 158);
+         border-radius: 30px 50px 30px;
+         padding: 25px;
+         margin: 25px;
+         float: right;
       }
    </style>
-   
+
 </head>
 
 <body>
-<h2>Inlämningsuppgift 2: JavaScript BI plug-in</h2>
-<h3>(Mohammad Hasan and Artur Stanisauskas)</h3>
-   <h3><b>Scatterplot for price and reviews</b></h3>
+   <h2>Inlämningsuppgift 2: JavaScript BI plug-in</h2>
+   <h3>(Mohammad Hasan and Artur Stanisauskas)</h3>
+
    <div id="scatterplot" class="center">
 
+
    </div>
-   <h3><b>Histrogram for room rent price</b></h3>
+
    <div id="Histogram" class="center">
 
    </div>
-   <h3><b>Horizontal Histogram for number of guest accomodates</b></h3>
+
    <div id="Histogram2" class="center">
 
    </div>
-   <h3><b>Piechart for room type percentage</b></h3>
+
    <div id="piechart" class="center">
 
    </div>
-  
+
 </body>
-   <script type="text/javascript" src="airbnb.js"></script>
+<script type="text/javascript" src="airbnb.js"></script>
 
 </html>
