@@ -7293,7 +7293,7 @@ var layoutforhistrogram2 = {
   width: 600,
   height: 500,
   xaxis: {title: "Room Type"},
-  yaxis: {title: "Guets"},
+  yaxis: {title: "Guest"},
   family: "Courier New, monospace",
   xref: "paper",
   x: 0.05,
