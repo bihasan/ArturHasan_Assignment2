@@ -7211,21 +7211,20 @@ var layoutforscatterplot = {
 
 Plotly.newPlot('scatterplot', scatterplot, layoutforscatterplot);
 
+/*Ett histogram som visar spridningen på hyrespriserna*/
 
-var histogramprice = [];
+var rentalprice = [];
 for (i = 0; i < airbnb.length; i++) {
-  histogramprice.push(airbnb[i].price);
+  rentalprice.push(airbnb[i].price);
 }
-console.log(price)
 
-
-var histogram1 = [{
-  x: histogramprice,
+var histogram = [{
+  x: rentalprice,
   type: 'histogram',
   xbins: {
     start: 0,
     end: 800,
-    size: 20,
+    size: 50,
   }
 }];
 
@@ -7254,60 +7253,54 @@ var layoutforhistrogram = {
       }
     },
   },
-};
-
-Plotly.newPlot('Histogram', histogram1, layoutforhistrogram);
-
-
-
-var accommodates = [];
-for (i = 0; i < airbnb.length; i++) {
-  accommodates.push(airbnb[i].accommodates);
-}
-
-
-
-var histogram2 = [{
-  y: accommodates,
-  type: 'histogram',
-  xbins: {
-    start: 0,
-    end: 200,
-    size: 20,
-  }
-}];
-
-
-var layoutforhistrogram2 = {  
-  autosize: false,
-  width: 600,
-  height: 500,
-
-  title: {
-    text: "Accomodations",
-    font: {
-      family: "Courier New, monospace",
-      size: 17
-    },
-    xref: "paper",
-    y: 0.05,
-  },
 
   yaxis: {
     title: {
-      text: "Number of Guest Accomodates",
+      text: "Frequency or Rent",
       font: {
         family: "Courier New, monospace",
         size: 15,
         color: "#7f7f7f"
       }
-    },
-  },
+    }
+  }
 };
 
-Plotly.newPlot('Histogram2', histogram2, layoutforhistrogram2);
+Plotly.newPlot('Histogram', histogram, layoutforhistrogram);
 
-// piechart
+
+/* Ett histogram som visar spridningen på antalet gäster (accomodates) */
+
+var accommodates = []; // en lista skapas
+var room_type = [];
+for (i=0; i < airbnb.length; i++) {
+accommodates.push (airbnb[i].accommodates)
+room_type.push(airbnb[i].room_type)
+};
+
+
+var Guestnumber = [
+{
+x: room_type,
+y: accommodates,
+type: 'histogram',
+marker: {color:"blue"}
+}
+];
+
+var layoutforhistrogram2 = {  
+  autosize: false,
+  width: 600,
+  height: 500,
+  xaxis: {title: "Room Type"},
+  yaxis: {title: "Guets"},
+  family: "Courier New, monospace",
+  xref: "paper",
+  x: 0.05,
+}
+
+Plotly.newPlot('Histogram2', Guestnumber, layoutforhistrogram2);
+
 
 var roomType = [];
 
