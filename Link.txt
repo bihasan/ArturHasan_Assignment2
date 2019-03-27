@@ -1,0 +1,7 @@
+Assignment 2: Javascript plug-in
+Mohammad Hasan
+Arturas Stanisauskas
+
+github link:
+
+https://github.com/bihasan/ArturHasan_Assignment2/tree/master
